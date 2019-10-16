@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: .24rem;
+}
+
+header {
+    text-align: center;
+    line-height: 0.6rem;
+}
+
+.title {
+    font-size: .24rem;
+    padding-top: .27rem;
+    padding-bottom: .2rem;
+    padding-left: .32rem;
+    color: #999;
+    background: #fdf7f7;
+}
+
+ul li {
+    padding: .28rem 0;
+    margin-left: .32rem;
+    background-color: #fff;
+    display: block;
+    overflow: hidden;
+    border-bottom: 0.01rem solid #ccc;
+}
+
+ul li:nth-last-child(1) {
+    border: none;
+}
+
+ul li div:nth-last-child(1) {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ul li div:nth-last-child(1) p {
+    color: #999;
+}
+
+
+.img {
+    height: .73rem;
+    width: .72rem;
+    background: #ccc;
+    margin-right: .2rem;
+    float: left;
+
+}
+a{
+    text-decoration: none;
+}
+.list{
+    font-size: .24rem;
+}
+.list div{
+   display:inline-block;
+   padding: 5px;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+
+.item {
+    margin-left: .2rem;
+    padding: .2rem .2rem .25rem 0;
+    border-bottom: 0.01rem solid #ccc;
+    overflow: hidden;
+}
+
+.u-l {
+    width: 1.5rem;
+    min-height: .9rem;
+    background: #ccc;
+    float: left;
+}
+
+.u-l img {
+    width: 100%;
+}
+
+.u-r {
+    margin-left: 2rem;
+}
+.u-r p{
+    padding-bottom: 0.2rem;
+}
+
+.u-r h3 {
+    font-size: .24rem;
+    font-weight: 500;
+    padding-bottom: .1rem;
+}
+
+
+
+.book-tag span {
+    border: 1px solid #ccc;
+    border-radius: 0.02rem;
+    line-height: .2rem;
+    padding: 0.02rem .1rem;
+    margin-right: .05rem;
+    display: inline-block;
+    margin-bottom: .05rem;
+    font-size: .07rem;
+}
