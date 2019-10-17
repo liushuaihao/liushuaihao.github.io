@@ -129,7 +129,7 @@
 						</div>
 					</div>
 					<div style="text-align: center;">
-						<a href="#/no3" @click="sessionStorage.path='#/no3'">
+						<a href="#/no3">
 							<div class="btn el-icon-right" style="background: #008000;color: #fff;width: 100px;"></div>
 						</a>
 					</div>
@@ -644,7 +644,6 @@
 					line.style.width = "100%";
 					btn.style.borderColor = "#008000";
 					btn.style.color = "#008000"
-					console.log(name)
 				}
 				a.onmouseleave = function () {
 					name.style.color = ""
@@ -742,7 +741,6 @@
 			methods: {
 				lee(a) {
 					this.type = a;
-					console.log(a)
 				}
 			}
 		}

@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css">
@@ -104,7 +105,7 @@
                 },
                 methods: {
                     post() {
-                        this.$http.post('http://walden1.shuqireader.com/webapi/rank/classrelation', {
+                        this.$http.post('https://walden1.shuqireader.com/webapi/rank/classrelation', {
                             type: 1,
                             timestamp: '1567241878250',
                             sign: 'bac15e75b1ab7d33bdc179c539f8402d',
@@ -112,7 +113,6 @@
                         }, { emulateJSON: true }).then(
                             (data) => {
                                 this.arr = data.data.data;
-                                console.log(this.arr);
                             }
                         )
                     },
@@ -139,7 +139,7 @@
                         this.uid = this.$route.params.uid;
                         this.name = this.$route.params.name;
 
-                        this.$http.post('http://walden1.shuqireader.com/webapi/rank/classrelation?_=1571233265900', {
+                        this.$http.post('https://walden1.shuqireader.com/webapi/rank/classrelation?_=1571233265900', {
                             type: '2',
                             cid: this.uid,
                             timestamp: '1571233265896',
@@ -148,10 +148,9 @@
                         }, { emulateJSON: true }).then(
                             (data) => {
                                 this.arr = data.data.data;
-                                console.log(this.arr);
                             }
                         )
-                        this.$http.get('http://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page=1&words=&shuqi_h5=&onlyCpBooks=1&secondCate=%E7%8E%B0%E4%BB%A3%E8%A8%80%E6%83%85&sort=monthHot&_=1571222214835', {
+                        this.$http.get('https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page=1&words=&shuqi_h5=&onlyCpBooks=1&secondCate=%E7%8E%B0%E4%BB%A3%E8%A8%80%E6%83%85&sort=monthHot&_=1571222214835', {
                             params: {
                                 do: 'is_caterank',
                                 p: 1,
@@ -165,11 +164,10 @@
                             }
                         }).then(data => {
                             this.list = data.data.data;
-                            console.log(this.list);
                         })
                     },
                     get(cate) {
-                        this.$http.get('http://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page=1&words=&shuqi_h5=&onlyCpBooks=1&secondCate=%E5%94%AF%E7%BE%8E%E7%AB%A5%E8%AF%9D&sort=monthHot&_=1571236610836', {
+                        this.$http.get('https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page=1&words=&shuqi_h5=&onlyCpBooks=1&secondCate=%E5%94%AF%E7%BE%8E%E7%AB%A5%E8%AF%9D&sort=monthHot&_=1571236610836', {
                             params: {
                                 do: 'is_caterank',
                                 p: 1,
@@ -183,11 +181,10 @@
                             }
                         }).then(data => {
                             this.list = data.data.data;
-                            console.log(this.list);
                         })
                     },
                     get2(tag) {
-                        this.$http.get('http://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page=1&words=&shuqi_h5=&onlyCpBooks=1&tag=%E8%85%B9%E9%BB%91&sort=monthHot&_=1571237628792', {
+                        this.$http.get('https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page=1&words=&shuqi_h5=&onlyCpBooks=1&tag=%E8%85%B9%E9%BB%91&sort=monthHot&_=1571237628792', {
                             params: {
                                 do: 'is_caterank',
                                 p: 1,
@@ -201,14 +198,12 @@
                             }
                         }).then(data => {
                             this.list = data.data.data;
-                            console.log(this.list);
                         })
                     }
 
                 },
                 created() {
                     this.post()
-                    console.log(this.$route.params.type);
                 },
             },
         }]
