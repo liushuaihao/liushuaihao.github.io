@@ -1,0 +1,85 @@
+{
+    "arr": [
+        {
+            "title": "水饺",
+            "arr": [
+                {
+                    "id": "0",
+                    "url": "https://i02piccdn.sogoucdn.com/ab27463db7adadd9",
+                    "title": "猪肉白菜水饺",
+                    "ice": "月售18份  好评率100%",
+                    "jg": "16",
+                    "num": 0
+                },
+                {
+                    "id": "1",
+                    "url": "https://i04piccdn.sogoucdn.com/9a8a859cbf7fd144",
+                    "title": "鱿鱼三鲜水饺",
+                    "ice": "月售18份  好评率100%",
+                    "jg": "20",
+                    "num": 0
+                },
+                {
+                    "id": "2",
+                    "url": "https://i01piccdn.sogoucdn.com/a298b57577b27941",
+                    "title": "虾仁三鲜水饺",
+                    "ice": "月售19份  好评率100%",
+                    "jg": "25",
+                    "num": 0
+                },
+                {
+                    "id": "3",
+                    "url": "https://i02piccdn.sogoucdn.com/a4e37302a9b6143d",
+                    "title": "南瓜皮菌菇三鲜猪肉水饺",
+                    "ice": "月售19份  好评率100%",
+                    "jg": "24",
+                    "num": 0,
+                    "js": "香菇、猪肉、鸡蛋、木耳、饺子皮"
+                }
+            ]
+        },
+        {
+            "title": "流食",
+            "arr": [
+                {
+                    "id": "4",
+                    "url": "https://i01piccdn.sogoucdn.com/a298b57577b27941",
+                    "title": "鱿鱼三鲜水饺",
+                    "ice": "月售18份  好评率100%",
+                    "jg": "20",
+                    "num": 0
+                },
+                {
+                    "id": "5",
+                    "url": "https://i04piccdn.sogoucdn.com/4528cf890080e280",
+                    "title": "南瓜皮菌菇三鲜猪肉水饺",
+                    "ice": "月售19份  好评率100%",
+                    "jg": "24",
+                    "num": 0,
+                    "js": "香菇、猪肉、鸡蛋、木耳、饺子皮"
+                }
+            ]
+        },
+        {
+            "title": "凉菜",
+            "arr": [
+                {
+                    "id": "6",
+                    "url": "https://i01piccdn.sogoucdn.com/a298b57577b27941",
+                    "title": "虾仁三鲜水饺",
+                    "ice": "月售19份  好评率100%",
+                    "jg": "25",
+                    "num": 0
+                },
+                {
+                    "id": "7",
+                    "url": "https://i03piccdn.sogoucdn.com/f3930ba430828bd1",
+                    "title": "猪肉白菜水饺",
+                    "ice": "月售18份  好评率100%",
+                    "jg": "16",
+                    "num": 0
+                }
+            ]
+        }
+    ]
+}
